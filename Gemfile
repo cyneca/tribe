@@ -32,7 +32,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Use Twitter Bootstrap library for front-end UI and layout
-gem 'bootstrap', '~> 4.1.3'
+gem 'bootstrap-sass', '~> 3.4.0'
+gem 'sassc-rails', '>= 2.0.0'
+
+#Using rails 5.1.0 requires jquery gem to run bootstrap
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
