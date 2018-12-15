@@ -18,6 +18,8 @@ h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
+
+//Nav Styles 
 .navbar {
   border: none;;
 }
@@ -25,8 +27,13 @@ h1, h2, h3 {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
+  &:hover {
+    color: white;
+    opacity: .55;
+  }
 }
 
+//Home Page Styles
 .navbar, .home-callout {
   background: #000428;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
